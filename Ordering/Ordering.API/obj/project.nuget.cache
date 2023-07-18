@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "l268x6JvoyiID4GGSiS87U1VGkXCpVlXaINevKanqhumvepf/o4WA7Jb7IMedQ5lTyM+ZKydmtkEWZoqtJFw8w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ext-a.demnati\\OneDrive - SHOWROOMPRIVE.COM\\Documents\\clean_architecture_ecommerce\\Ordering\\Ordering.API\\Ordering.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ext-a.demnati\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ext-a.demnati\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ext-a.demnati\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\ext-a.demnati\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\ext-a.demnati\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\ext-a.demnati\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
