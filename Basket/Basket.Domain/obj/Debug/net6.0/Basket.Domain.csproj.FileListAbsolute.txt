@@ -1,0 +1,12 @@
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Domain\bin\Debug\net6.0\Basket.Domain.deps.json
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Domain\bin\Debug\net6.0\Basket.Domain.dll
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Domain\bin\Debug\net6.0\Basket.Domain.pdb
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.csproj.AssemblyReference.cache
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.AssemblyInfoInputs.cache
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.AssemblyInfo.cs
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.dll
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Domain\obj\Debug\net6.0\refint\Basket.Domain.dll
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.pdb
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Domain\obj\Debug\net6.0\ref\Basket.Domain.dll

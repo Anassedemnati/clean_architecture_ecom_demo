@@ -1,0 +1,17 @@
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Infrastructure.deps.json
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Infrastructure.dll
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Infrastructure.pdb
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Application.dll
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Domain.dll
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Application.pdb
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Domain.pdb
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.AssemblyInfo.cs
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.csproj.CopyComplete
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.dll
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\obj\Debug\net6.0\refint\Basket.Infrastructure.dll
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.pdb
+C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\obj\Debug\net6.0\ref\Basket.Infrastructure.dll
