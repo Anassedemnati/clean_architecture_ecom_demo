@@ -1,6 +1,5 @@
 ﻿using Basket.Application.Contracts.Handlers;
 using Basket.Application.Contracts.Handlers.Dtos;
-using Basket.Application.Contracts.Persistence;
 using Basket.Domain.Entities;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;

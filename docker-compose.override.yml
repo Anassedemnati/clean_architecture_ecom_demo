@@ -6,6 +6,15 @@ services:
     restart: always
     ports:
       - "6379:6379"
+  
+  orderdb:
+    container_name: orderdb
+    environment:
+        SA_PASSWORD: "P@ssw0rd"
+        ACCEPT_EULA: "Y"
+    restart: always
+    ports:
+        - "1434:1433"
 
   basket.api:
     container_name: basket.api
