@@ -15,3 +15,20 @@ C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture
 C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\obj\Debug\net6.0\refint\Basket.Infrastructure.dll
 C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.pdb
 C:\Users\ext-a.demnati\OneDrive - SHOWROOMPRIVE.COM\Documents\clean_architecture_ecommerce\Basket\Basket.Infrastructure\obj\Debug\net6.0\ref\Basket.Infrastructure.dll
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Infrastructure.deps.json
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Infrastructure.dll
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Infrastructure.pdb
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Application.dll
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Domain.dll
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Application.pdb
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\bin\Debug\net6.0\Basket.Domain.pdb
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.AssemblyInfo.cs
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.csproj.CopyComplete
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.dll
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\obj\Debug\net6.0\refint\Basket.Infrastructure.dll
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\obj\Debug\net6.0\Basket.Infrastructure.pdb
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Infrastructure\obj\Debug\net6.0\ref\Basket.Infrastructure.dll

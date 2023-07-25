@@ -17,7 +17,6 @@ public class OrderController : ControllerBase
     {
         _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
     }
-    //get orer by username or id or email if one of them is valid others will are "-1" 
     [HttpGet]
     [ProducesResponseType(typeof(IEnumerable<OrdersDto>), StatusCodes.Status200OK)]
     public async Task<ActionResult<IEnumerable<OrdersDto>>> GetOrdersByUsername(string? userName, string? orderId, string? emailAddress)

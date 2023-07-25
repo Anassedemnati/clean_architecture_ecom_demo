@@ -2,6 +2,10 @@
 using Ordering.Application.Contracts.Persistence;
 using Ordering.Domain.Entities;
 using Ordering.Infrastructure.Persistence;
+using SendGrid.Helpers.Mail;
+using System.Data;
+using System.Diagnostics.Metrics;
+using System.Reflection.Emit;
 
 namespace Ordering.Infrastructure.Repositories;
 
@@ -16,20 +20,22 @@ public class OrderRepository : IOrderRepository
 
     public async Task<Order> AddAsync(Order entity)
     {
-        var query = "exec ps_add_order @UserName, @FirstName, @LastName, @Email, @AddressLine, @Country, @State, @ZipCode, @TotalPrice, @PaymentMethod";
+        var parameters = new
+        {
+            entity.UserName,
+            entity.TotalPrice,
+            entity.FirstName,
+            entity.LastName,
+            entity.EmailAddress,
+            entity.AddressLine,
+            entity.Country,
+            entity.State,
+            entity.ZipCode,
+            entity.PaymentMethod
+        };
         using var connection = _orderContext.CreateConnection();
-        var parameters = new DynamicParameters();
-        parameters.Add("@UserName", entity.UserName);
-        parameters.Add("@FirstName", entity.FirstName);
-        parameters.Add("@LastName", entity.LastName);
-        parameters.Add("@Email", entity.EmailAddress);
-        parameters.Add("@AddressLine", entity.AddressLine);
-        parameters.Add("@Country", entity.Country);
-        parameters.Add("@State", entity.State);
-        parameters.Add("@ZipCode", entity.ZipCode);
-        parameters.Add("@TotalPrice", entity.TotalPrice, System.Data.DbType.Decimal);
-        parameters.Add("@PaymentMethod", entity.PaymentMethod);
-        return await connection.QuerySingleOrDefaultAsync<Order>(query, parameters, commandType: System.Data.CommandType.Text);
+        return await connection.QuerySingleAsync<Order>("ps_add_order", parameters, commandType: System.Data.CommandType.StoredProcedure);
+
     }
 
     public async Task DeleteAsync(Order entity)
@@ -66,18 +72,20 @@ public class OrderRepository : IOrderRepository
     public async Task UpdateAsync(Order entity)
     {
         using var connection = _orderContext.CreateConnection();
-
-        var query = "exec ps_update_order @OrderId, @UserName, @FirstName, @LastName, @Email, @AddressLine, @Country, @TotalPrice, @PaymentMethod";
-        var parameters = new DynamicParameters();
-        parameters.Add("@OrderId", entity.Id);
-        parameters.Add("@UserName", entity.UserName);
-        parameters.Add("@FirstName", entity.FirstName);
-        parameters.Add("@LastName", entity.LastName);
-        parameters.Add("@Email", entity.EmailAddress);
-        parameters.Add("@AddressLine", entity.AddressLine);
-        parameters.Add("@Country", entity.Country);
-        parameters.Add("@TotalPrice", entity.TotalPrice);
-        parameters.Add("@PaymentMethod", entity.PaymentMethod);
-        await connection.ExecuteAsync(query, parameters, commandType: System.Data.CommandType.Text);
+        var parameters = new
+        {
+            entity.Id,
+            entity.UserName,
+            entity.FirstName,
+            entity.LastName,
+            entity.EmailAddress,
+            entity.AddressLine,
+            entity.Country,
+            entity.TotalPrice,
+            entity.State,
+            entity.ZipCode,
+            entity.PaymentMethod
+        };
+        await connection.ExecuteAsync("ps_update_order", parameters, commandType: System.Data.CommandType.StoredProcedure);
     }
 }
