@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "72ewzFfMdo33kt0cyLlJm6Ntd6JN9JVNE7WUxzG0YfoMrIAMWZMQIHs9NPgrtP4ms+IoVAfQtfTzAgmqupslWg==",
+  "dgSpecHash": "QBiHyD4hku3p1/lby96GtkhexHWEV7N8znOCXLRc0MR5iED73Cyf5Lu76UwvjHgavMRZ/EpB0gc+k5tG9cBwlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Basket\\Basket.Domain\\Basket.Domain.csproj",
+  "projectFilePath": "C:\\Users\\ext-a.demnati\\Desktop\\clean_architecture_ecom_demo\\Basket\\Basket.Domain\\Basket.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

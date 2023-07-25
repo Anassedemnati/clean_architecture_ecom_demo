@@ -1791,34 +1791,45 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AnasseDEMNATI\\.nuget\\packages\\": {}
+    "C:\\Users\\ext-a.demnati\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Basket\\Basket.Api\\Basket.Api.csproj",
+      "projectUniqueName": "C:\\Users\\ext-a.demnati\\Desktop\\clean_architecture_ecom_demo\\Basket\\Basket.Api\\Basket.Api.csproj",
       "projectName": "Basket.Api",
-      "projectPath": "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Basket\\Basket.Api\\Basket.Api.csproj",
-      "packagesPath": "C:\\Users\\AnasseDEMNATI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Basket\\Basket.Api\\obj\\",
+      "projectPath": "C:\\Users\\ext-a.demnati\\Desktop\\clean_architecture_ecom_demo\\Basket\\Basket.Api\\Basket.Api.csproj",
+      "packagesPath": "C:\\Users\\ext-a.demnati\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ext-a.demnati\\Desktop\\clean_architecture_ecom_demo\\Basket\\Basket.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\AnasseDEMNATI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\ext-a.demnati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\NuGetDefaults.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/showroomprive/_packaging/SRP-Nuget-SQL/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/showroomprive/_packaging/SRP-Nuget/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj"
+            "C:\\Users\\ext-a.demnati\\Desktop\\clean_architecture_ecom_demo\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\ext-a.demnati\\Desktop\\clean_architecture_ecom_demo\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj"
             }
           }
         }
@@ -1861,7 +1872,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

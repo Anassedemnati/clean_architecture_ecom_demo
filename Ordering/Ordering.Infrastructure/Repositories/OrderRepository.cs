@@ -16,7 +16,7 @@ public class OrderRepository : IOrderRepository
 
     public async Task<Order> AddAsync(Order entity)
     {
-        var query = "exec ps_add_order @UserName, @FirstName, @LastName, @Email, @AddressLine, @Country, @TotalPrice, @PaymentMethod";
+        var query = "exec ps_add_order @UserName, @FirstName, @LastName, @Email, @AddressLine, @Country, @State, @ZipCode, @TotalPrice, @PaymentMethod";
         using var connection = _orderContext.CreateConnection();
         var parameters = new DynamicParameters();
         parameters.Add("@UserName", entity.UserName);
@@ -25,7 +25,9 @@ public class OrderRepository : IOrderRepository
         parameters.Add("@Email", entity.EmailAddress);
         parameters.Add("@AddressLine", entity.AddressLine);
         parameters.Add("@Country", entity.Country);
-        parameters.Add("@TotalPrice", entity.TotalPrice);
+        parameters.Add("@State", entity.State);
+        parameters.Add("@ZipCode", entity.ZipCode);
+        parameters.Add("@TotalPrice", entity.TotalPrice, System.Data.DbType.Decimal);
         parameters.Add("@PaymentMethod", entity.PaymentMethod);
         return await connection.QuerySingleOrDefaultAsync<Order>(query, parameters, commandType: System.Data.CommandType.Text);
     }
@@ -33,7 +35,7 @@ public class OrderRepository : IOrderRepository
     public async Task DeleteAsync(Order entity)
     {
         using var connection = _orderContext.CreateConnection();
-        var query = "DELETE FROM Orders WHERE OrderId = @OrderId";
+        var query = "DELETE FROM Orders WITH(NOLOCK) WHERE Id = @OrderId";
         await connection.ExecuteAsync(query, new { entity.Id });
     }
 
@@ -41,7 +43,7 @@ public class OrderRepository : IOrderRepository
     {
         using var connection = _orderContext.CreateConnection();
 
-        var query = "SELECT * FROM Orders WHERE OrderId = @OrderId";
+        var query = "SELECT * FROM Orders WITH(NOLOCK) WHERE Id = @OrderId";
         return await connection.QuerySingleOrDefaultAsync<Order>(query, new { OrderId = id });
     }
 
@@ -49,7 +51,7 @@ public class OrderRepository : IOrderRepository
     {
         using var connection = _orderContext.CreateConnection();
 
-        var query = "SELECT * FROM Orders WHERE Email = @Email";
+        var query = "SELECT * FROM Orders WITH(NOLOCK) WHERE EmailAddress = @Email";
         return await connection.QueryAsync<Order>(query, new { Email = emailAddress });
     }
 
@@ -57,7 +59,7 @@ public class OrderRepository : IOrderRepository
     {
         using var connection = _orderContext.CreateConnection();
 
-        var query = "SELECT * FROM Orders WHERE UserName = @UserName";
+        var query = "SELECT * FROM Orders WITH(NOLOCK) WHERE UserName = @UserName";
         return await connection.QueryAsync<Order>(query, new { UserName = userName });
     }
 

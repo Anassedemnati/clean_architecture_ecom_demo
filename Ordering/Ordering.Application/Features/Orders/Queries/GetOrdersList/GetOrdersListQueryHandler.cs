@@ -38,7 +38,8 @@ public class GetOrdersListQueryHandler: IRequestHandler<GetOrdersListQuery, List
     {
         int orderIdInt = int.Parse(orderId);
         var orderList = await _orderRepository.GetByIdAsync(orderIdInt);
-        return _mapper.Map<List<OrdersDto>>(orderList);
+        var ordersDto = _mapper.Map<OrdersDto>(orderList);
+        return new List<OrdersDto>() { ordersDto };
     }
 
     private async Task<List<OrdersDto>> GetOrdersByUserName(string userName)

@@ -8,27 +8,37 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\AnasseDEMNATI\\.nuget\\packages\\": {}
+    "C:\\Users\\ext-a.demnati\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ext-a.demnati\\Desktop\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
       "projectName": "Ordering.Domain",
-      "projectPath": "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
-      "packagesPath": "C:\\Users\\AnasseDEMNATI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\obj\\",
+      "projectPath": "C:\\Users\\ext-a.demnati\\Desktop\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+      "packagesPath": "C:\\Users\\ext-a.demnati\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ext-a.demnati\\Desktop\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\AnasseDEMNATI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\ext-a.demnati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\NuGetDefaults.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/showroomprive/_packaging/SRP-Nuget-SQL/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/showroomprive/_packaging/SRP-Nuget/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -61,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

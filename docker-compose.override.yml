@@ -14,7 +14,7 @@ services:
         ACCEPT_EULA: "Y"
     restart: always
     ports:
-        - "1434:1433"
+        - "1433:1433"
 
   basket.api:
     container_name: basket.api
