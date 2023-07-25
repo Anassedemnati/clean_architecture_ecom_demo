@@ -128,3 +128,5 @@ C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Api\ob
 C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Api\obj\Debug\net6.0\Basket.Api.pdb
 C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Api\obj\Debug\net6.0\Basket.Api.genruntimeconfig.cache
 C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Api\obj\Debug\net6.0\ref\Basket.Api.dll
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Api\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

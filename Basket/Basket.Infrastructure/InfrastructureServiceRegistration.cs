@@ -1,4 +1,6 @@
-﻿using Basket.Application.Contracts.Persistence;
+﻿using Basket.Application.Contracts.ExtApiService;
+using Basket.Application.Contracts.Persistence;
+using Basket.Infrastructure.ExtApiServices;
 using Basket.Infrastructure.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,6 +14,11 @@ public static class InfrastructureServiceRegistration
         services.AddStackExchangeRedisCache(options =>
         {
             options.Configuration = configuration.GetSection("CacheSettings").GetSection("ConnectionString").Value;
+        });
+        services.AddHttpClient<IOrderService, OrderService>(c =>
+        {
+            c.BaseAddress = new Uri(configuration["ApiSettings:OrderingUrl"]!);
+            
         });
         services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
         services.AddScoped<IBasketRepository, BasketRepository>();

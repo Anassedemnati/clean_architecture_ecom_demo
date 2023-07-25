@@ -66,3 +66,5 @@ C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\bin\Debug\Basket.Inf
 C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\bin\Debug\Newtonsoft.Json.Bson.dll

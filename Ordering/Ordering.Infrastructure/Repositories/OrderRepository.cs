@@ -2,10 +2,7 @@
 using Ordering.Application.Contracts.Persistence;
 using Ordering.Domain.Entities;
 using Ordering.Infrastructure.Persistence;
-using SendGrid.Helpers.Mail;
-using System.Data;
-using System.Diagnostics.Metrics;
-using System.Reflection.Emit;
+
 
 namespace Ordering.Infrastructure.Repositories;
 
