@@ -26,24 +26,24 @@ public class OrderController : ControllerBase
     }
     [HttpPost]
     [ProducesResponseType(typeof(IEnumerable<OrdersDto>), StatusCodes.Status200OK)]
-    public async Task<ActionResult<IEnumerable<OrdersDto>>> CheckoutOrder([FromBody] CheckoutOrderCommand query)
+    public async Task<ActionResult<IEnumerable<OrdersDto>>> CheckoutOrder([FromBody] CheckoutOrderCommand command)
     {
-        var orders = await _mediator.Send(query);
+        var orders = await _mediator.Send(command);
         return Ok(orders);
     }
     [HttpPatch]
     [ProducesResponseType(typeof(IEnumerable<OrdersDto>), StatusCodes.Status200OK)]
-    public async Task<ActionResult<IEnumerable<OrdersDto>>> UpdateOrder([FromBody] UpdateOrderCommand query)
+    public async Task<ActionResult<IEnumerable<OrdersDto>>> UpdateOrder([FromBody] UpdateOrderCommand command)
     {
-        var orders = await _mediator.Send(query);
+        var orders = await _mediator.Send(command);
         return Ok(orders);
     }
     [HttpDelete]
     [ProducesResponseType(typeof(IEnumerable<OrdersDto>), StatusCodes.Status200OK)]
     public async Task<ActionResult<IEnumerable<OrdersDto>>> DeleteOrder(int id)
     {
-        var query = new DeleteOrderCommand(id);
-        var orders = await _mediator.Send(query);
+        var command = new DeleteOrderCommand(id);
+        var orders = await _mediator.Send(command);
         return Ok(orders);
     }
 

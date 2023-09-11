@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {}
+    "C:\\Users\\AnasseDEMNATI\\Documents\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+    "C:\\Users\\AnasseDEMNATI\\Documents\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\AnasseDEMNATI\\Documents\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
         "projectName": "Ordering.Domain",
-        "projectPath": "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+        "projectPath": "C:\\Users\\AnasseDEMNATI\\Documents\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
         "packagesPath": "C:\\Users\\AnasseDEMNATI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\obj\\",
+        "outputPath": "C:\\Users\\AnasseDEMNATI\\Documents\\clean_architecture_ecom_demo\\Ordering\\Ordering.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AnasseDEMNATI\\AppData\\Roaming\\NuGet\\NuGet.Config",

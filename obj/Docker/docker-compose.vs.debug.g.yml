@@ -13,8 +13,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Api:/app
-      - C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo:/src
+      - C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo\Basket\Basket.Api:/app
+      - C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo:/src
       - C:\Users\AnasseDEMNATI\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\AnasseDEMNATI\.nuget\packages\:/root/.nuget/packages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro

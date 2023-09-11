@@ -22,3 +22,15 @@ C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Domain
 C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Domain\obj\Debug\net6.0\refint\Basket.Domain.dll
 C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.pdb
 C:\Users\AnasseDEMNATI\Desktop\clean_architecture_ecom_demo\Basket\Basket.Domain\obj\Debug\net6.0\ref\Basket.Domain.dll
+C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo\Basket\Basket.Domain\bin\Debug\net6.0\Basket.Domain.deps.json
+C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo\Basket\Basket.Domain\bin\Debug\net6.0\Basket.Domain.dll
+C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo\Basket\Basket.Domain\bin\Debug\net6.0\Basket.Domain.pdb
+C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.csproj.AssemblyReference.cache
+C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.AssemblyInfoInputs.cache
+C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.AssemblyInfo.cs
+C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.csproj.CoreCompileInputs.cache
+C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.dll
+C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo\Basket\Basket.Domain\obj\Debug\net6.0\refint\Basket.Domain.dll
+C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo\Basket\Basket.Domain\obj\Debug\net6.0\Basket.Domain.pdb
+C:\Users\AnasseDEMNATI\Documents\clean_architecture_ecom_demo\Basket\Basket.Domain\obj\Debug\net6.0\ref\Basket.Domain.dll

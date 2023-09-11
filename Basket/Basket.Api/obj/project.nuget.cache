@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3qMLknO+bZtt1rid/jbAxnI4YZG3kt9e77P+QdxKXStwqL8dhsNNUOfejYJ9F8Mc/LnQtf4x0KotnJ+lbgQnlQ==",
+  "dgSpecHash": "Pi2kRyAsqsx76L5Ux26VqtwEmHb6+ZplgpXoUnYmOf+O+kVDoPL7rlMw0obJXdzJ6Q/s1OroI0HuJjx7J1xF+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AnasseDEMNATI\\Desktop\\clean_architecture_ecom_demo\\Basket\\Basket.Api\\Basket.Api.csproj",
+  "projectFilePath": "C:\\Users\\AnasseDEMNATI\\Documents\\clean_architecture_ecom_demo\\Basket\\Basket.Api\\Basket.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AnasseDEMNATI\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\AnasseDEMNATI\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
